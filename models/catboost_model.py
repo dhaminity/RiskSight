@@ -40,3 +40,6 @@ def predict_catboost(model, df_test, train_columns):
     df_test['Probability_of_Default'] = probs
 
     return df_test
+
+
+

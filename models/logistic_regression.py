@@ -68,3 +68,5 @@ def predict_logistic_regression(model, df_test, train_columns, scaler):
     df_test['Probability_of_Default'] = probs
 
     return df_test
+
+

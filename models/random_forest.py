@@ -47,3 +47,5 @@ def predict_random_forest(model, df_test, train_columns):
     df_test['Probability_of_Default'] = probs
 
     return df_test
+
+
